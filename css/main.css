@@ -88,9 +88,25 @@ p{
     letter-spacing:.09em;
 }
 
+a:link,a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 .logo {
     width: 500px;
+}
+
+.press h3{
+    margin-bottom: 20px;
+}
+
+.press p{
+    font-size: 1em;
+    margin-bottom: 12px;
 }
 
 #background{
@@ -186,14 +202,6 @@ p{
     background-position: 0 bottom
 }
 
-a:link,a:visited{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    text-decoration: underline;
-}
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -202,6 +210,14 @@ a:hover{
 
     .logo {
         width: 280px;
+    }
+
+    .press {
+        margin-bottom: 100px;
+    }
+
+    .press p{
+        font-size: .8em;
     }
 
     .nav_btn{

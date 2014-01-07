@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	/*
     $(".various").fancybox({
         maxWidth    : 960,
         maxHeight   : 540,
@@ -8,11 +8,8 @@ $(document).ready(function(){
         height      : '90%',
         autoSize    : true,
         closeClick  : false,
-        // openEffect  : 'none',
-        // closeEffect : 'none'
     });
-
-
+	*/
     var $nav_selected = $('#nav :nth-child(1)'), $nav_id;
  	$('.nav_item').click(function(i){
  		if(!$(this).hasClass('selected')){
