@@ -12,30 +12,72 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />        
+        <script type="text/javascript" src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <div id="background"></div>
         <div id="content">
-            <img src="img/masthead-template.png" width="500" class="logo" alt="">
-            <h3>Executive Producer:</h3>
-            <h4>Melissa Mapes</h4>
-            <p><a href="mailto:mapes@friendshopedit.com">mapes@friendshopedit.com</a></p>
-            <p>646.696.0424</p>
-            <h3>Editors:</h3>
-            <h4>Ben Suenaga</h4>
-            <p><a href="mailto:ben@friendshopedit.com">ben@friendshopedit.com</a></p>
-            <p>917.595.0080</p>
-            <h4>Tim Wilson</h4>
-            <p><a href="mailto:tim@friendshopedit.com">tim@friendshopedit.com</a></p>
-            <p>917.848.6984</p>
+            <img class="logo"  src="img/masthead-template.png" alt="">
+            <div id="nav">
+                <div class="nav_btn nav_item selected" id="0">Home</div>
+                <div class="nav_btn nav_item" id="1">Our work</div>
+                <div class="nav_btn nav_item" id="2">Press</div>
+                <div class="nav_btn social_btn fb">&nbsp;</div>
+                <div class="nav_btn social_btn tw">&nbsp;</div>
+            </div>            
+            <ul>
+                <li>
+                    <!--
+                    <h3>Executive Producer:</h3>
+                    <h4>Melissa Mapes</h4>
+                    <p><a href="mailto:mapes@friendshopedit.com">mapes@friendshopedit.com</a></p>
+                    <p>646.696.0424</p>
+                    <h3>Editors:</h3>
+                    <h4>Ben Suenaga</h4>
+                    <p><a href="mailto:ben@friendshopedit.com">ben@friendshopedit.com</a></p>
+                    <p>917.595.0080</p>
+                    <h4>Tim Wilson</h4>
+                    <p><a href="mailto:tim@friendshopedit.com">tim@friendshopedit.com</a></p>
+                    <p>917.848.6984</p>
+                    -->
+                    <h3>Editors:</h3>
+                    <h4>Ben Suenaga</h4>
+                    <p><a href="mailto:ben@friendshopedit.com">ben@friendshopedit.com</a></p>
+                    <p>917.595.0080</p>
+                    <h4>Tim Wilson</h4>
+                    <p><a href="mailto:tim@friendshopedit.com">tim@friendshopedit.com</a></p>
+                    <p>917.848.6984</p>
+                    <h3>Executive Producer:</h3>
+                    <h4>Melissa Mapes</h4>
+                    <p><a href="mailto:mapes@friendshopedit.com">mapes@friendshopedit.com</a></p>
+                    <p>646.696.0424</p>
+                    <br>
+                    <div class="nav_btn nav_item arrow" id="1">View work&nbsp;&nbsp;&#9654;</div>
+                </li>
+                <li class="hidden">
+                    <h4><a href="http://wdrv.it/1khdqEl" target="_blank">Tim Wilson</a></h4>
+                    <h4><a href="http://wdrv.it/1e0BZOw" target="_blank">Ben Suenaga</a></h4>
+                </li>
+            </ul>
         </div>
-        <img id="deer_icon" src="img/deer-icon-ss.jpg" />
+        <a href="http://friendshop.tumblr.com" target="_blank"><div id="deer_icon"></div></a>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
+        <script type="text/javascript" src="js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <!--script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46921761-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script-->
+
     </body>
 </html>

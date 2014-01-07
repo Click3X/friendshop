@@ -76,15 +76,21 @@ h3,h4,p{
 h3{
     margin-top: 8px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
 }
 h4{
     margin-top: 4px;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
 }
 p{
-    font-weight: 100;
+    font-weight: 200;
+    letter-spacing:.09em;
+}
+
+
+.logo {
+    width: 500px;
 }
 
 #background{
@@ -97,16 +103,89 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#nav{
+    margin: 15px 0 17px;
+    padding: 0;
+}
+
+.nav_btn{
+    display: inline-block;
+    margin-right: 12px;
+    padding: 4px 23px;
+    font-weight: 600;
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #000;
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.3);
+    -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.3);
+    box-shadow:         inset 0 0 15px rgba(0,0,0,.3);    
+}
+
+.nav_btn:hover{
+    color: #FFF;
+    background: #920a10;
+    -webkit-box-shadow: inset 0 0 5px rgba(255,255,255,.5);
+    -moz-box-shadow:    inset 0 0 5px rgba(255,255,255,.5);
+    box-shadow:         inset 0 0 5px rgba(255,255,255,.5);    
+}
+
+.nav_btn.arrow{
+    padding-right: 16px;
+}
+
+.social_btn{
+    padding: 4px 0;
+    width: 32px;
+    margin-right: 8px;
+}
+
+.social_btn:hover{
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.5);
+    -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.5);
+    box-shadow:         inset 0 0 15px rgba(0,0,0,.5);    
+}
+
+.social_btn.fb{
+    background: #5d78bb url('../img/social-icons.png') no-repeat 0 top;
+}
+
+.social_btn.tw{
+    background: #678fae url('../img/social-icons.png') no-repeat 0 bottom;
+}
+
 #content{
     padding:20px 0 0 20px;
     color:#FFF;
     margin:0;
 }
+
+#content ul{
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+#content li{
+    /*background: #00FF00;*/
+}
+
 #deer_icon{
     position: absolute;
-    right:0;
-    bottom:0;
+    width: 116px;
+    height: 116px;
+    right:30px;
+    bottom:30px;
+    background: transparent url('../img/deer-icon-ss.png') no-repeat 0 top;
 }
+
+#deer_icon:hover{
+    background-position: 0 bottom
+}
+
 a:link,a:visited{
     text-decoration: none;
     color: white;
@@ -118,6 +197,38 @@ a:hover{
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+
+    .logo {
+        width: 280px;
+    }
+
+    .nav_btn{
+        margin-right: 0px;
+        padding: 4px 4px;
+        font-size: .7em;
+    }
+
+    .nav_btn.arrow{
+        padding-right: 4px;
+    }    
+
+    .social_btn{
+        padding: 4px 0;
+        width: 32px;
+        margin-right: 0px;
+    }
+    #background{
+        background: #000;
+    }
+
+    #deer_icon{
+        position: fixed;
+        right:5px;
+        bottom:0px;
+    }    
+}
 
 @media only screen and (min-width: 35em) {
 
