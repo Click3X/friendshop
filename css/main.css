@@ -105,6 +105,7 @@ a:hover{
 }
 
 .press p{
+    width: 90%;
     font-size: 1em;
     margin-bottom: 12px;
 }
