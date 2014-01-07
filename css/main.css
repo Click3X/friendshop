@@ -115,7 +115,7 @@ a:hover{
 .press p{
     display: inline-block;
     /*width: 90%;*/
-    font-size: 1em;
+    font-size: .95em;
     margin: 0 10px 20px 0;
     line-height: 1.4em;    
 }
@@ -251,8 +251,7 @@ a:hover{
 
     .nav_btn.small{
         top: 0;
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px;        
     }
 
     #background{
