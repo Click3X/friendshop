@@ -10,6 +10,23 @@ textarea {
     color: #222;
 }
 
+.work-section{
+    padding-bottom:10px;
+}
+.press-section{
+    padding-bottom:10px;
+}
+.work-heading{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 10px;
+}
+
+.press-section i{
+    margin-right: 8px;
+}
+
 body {
     font-size: 1em;
     line-height: 1.4;
@@ -112,14 +129,6 @@ a:hover{
     margin-bottom: 20px;
 }
 
-.press p{
-    display: inline-block;
-    /*width: 90%;*/
-    font-size: .95em;
-    margin: 0 10px 20px 0;
-    line-height: 1.4em;    
-}
-
 #background{
     height: 100%;
     z-index: -1;
@@ -160,18 +169,17 @@ a:hover{
 .nav_btn.small{
     position: relative;
     top: -2px;
-    padding: 0 8px 0 10px !important;
     font-size: .5em;
 	color:#920a10;
 }
 
 .nav_btn.arrow{
 	color:#920a10;
-    padding-right: 16px;
+    padding: 0;
+    line-height: 10px;
 }
 
 .nav_btn.arrow:hover{
-    padding-right: 16px;
 	color:#fff;
 }
 
