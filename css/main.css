@@ -138,26 +138,23 @@ a:hover{
 
 .nav_btn{
     display: inline-block;
-    margin-right: 12px;
-    padding: 4px 23px;
+    margin-right: 50px;
+    padding: 4px;
     font-weight: 600;
     font-size: .8em;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: #000;
-    background: #FFF;
+    color: #fff;
     cursor: pointer;
-    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.3);
-    -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.3);
-    box-shadow:         inset 0 0 15px rgba(0,0,0,.3);    
 }
 
-.nav_btn:hover, .nav_btn.selected{
-    color: #FFF;
-    background: #920a10;
-    -webkit-box-shadow: inset 0 0 5px rgba(255,255,255,.5);
-    -moz-box-shadow:    inset 0 0 5px rgba(255,255,255,.5);
-    box-shadow:         inset 0 0 5px rgba(255,255,255,.5);    
+.nav_btn:hover{
+    color: #920a10;
+}
+
+.nav_btn.selected{
+    color: #920a10;
+	border-bottom:5px solid;
 }
 
 .nav_btn.small{
@@ -165,10 +162,17 @@ a:hover{
     top: -2px;
     padding: 0 8px 0 10px !important;
     font-size: .5em;
+	color:#920a10;
 }
 
 .nav_btn.arrow{
+	color:#920a10;
     padding-right: 16px;
+}
+
+.nav_btn.arrow:hover{
+    padding-right: 16px;
+	color:#fff;
 }
 
 .social_btn{
